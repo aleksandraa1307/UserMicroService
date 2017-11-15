@@ -28,8 +28,8 @@ namespace UserMicroService.Tests
             };
             UserDB.AddUser(testUser);
             Assert.AreEqual(1, UserDB.listOfUsers.Count);
-            
-            
+
+
         }
         [Test]
         public void Create_User_Fail()
