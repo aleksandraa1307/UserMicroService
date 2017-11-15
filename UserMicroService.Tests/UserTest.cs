@@ -85,11 +85,11 @@ namespace UserMicroService.Tests
             User testUser = new User
             {
                 Id = 1,
-                Name = "Sara"
+                Name = "Tara"
             };
             UserDB.AddUser(testUser);
 
-            Assert.AreEqual(testUser, UserDB.GetUserByName("Sara"));
+            Assert.AreEqual(testUser, UserDB.GetUserByName("Tara"));
         }
 
         [Test]
