@@ -59,6 +59,7 @@ namespace UserMicroService.DataAccess
 
         }
 
+        //editovanje
         public static User EditUser(User user)
         {
             User newUser = GetUserById(user.Id);
@@ -78,6 +79,7 @@ namespace UserMicroService.DataAccess
             else return null;
         }
 
+        //brisanje
         public static void DeleteUser(int id)
         {
             User user = GetUserById(id);
